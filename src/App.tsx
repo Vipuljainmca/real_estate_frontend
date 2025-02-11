@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import AppBase from './components/base/appbase/AppBase.tsx';
+import RouterHome from './RouterHome.tsx';
 
 function App() {
   return (
-    <div className="App">
-      this is app js
-    </div>
+       <AppBase>
+        <RouterHome/>
+       </AppBase>
   );
 }
 
